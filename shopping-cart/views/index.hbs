@@ -1,0 +1,120 @@
+
+<div class="row">
+    {{# each products}}
+    <div class="col-sm-4 col-md-4">
+        <div class="card">
+            <img class="card-img-top" src="{{ this.newimagePath }}" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">{{this.title}}</h4>
+                <p class="card-text">{{this.description}}
+                </p>
+                <div>
+                    <div class="price">${{this.price}}
+                        <a href="/add-to-cart/{{this._id}}" class="btn btn-success pull-right">Add to Shopping Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="card">
+                <img class="card-img-top"
+                    src="/images/product_images/1.jpg"
+                    alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    </p>
+                    <div>
+                        <div class="price">$12
+                            <a href="#" class="btn btn-success pull-right">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="card">
+                <img class="card-img-top"
+                    src="/images/product_images/2.jpg"
+                    alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    </p>
+                    <div>
+                        <div class="price">$12
+                            <a href="#" class="btn btn-success pull-right">Button</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="card">
+                <img class="card-img-top"
+                    src="/images/product_images/3.jpg"
+                    alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    </p>
+                    <div>
+                        <div class="price">$12
+                            <a href="#" class="btn btn-success pull-right">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="card">
+                <img class="card-img-top"
+                    src="/images/product_images/4.jpg"
+                    alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    </p>
+                    <div>
+                        <div class="price">$12
+                            <a href="#" class="btn btn-success pull-right">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="card">
+                <img class="card-img-top img-responsive img-size:400px;"
+                    src="/images/product_images/5.jpg"
+                    alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    </p>
+                    <div>
+                        <div class="price">$12
+                            <a href="#" class="btn btn-success pull-right">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
